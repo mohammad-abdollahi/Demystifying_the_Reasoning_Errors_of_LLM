@@ -10,29 +10,30 @@ This repository accompanies the paper:
 
 Understanding a program’s runtime reasoning behavior, how intermediate states and control flows lead to final execution results, is crucial for reliable code generation, debugging, and automated reasoning. While LLMs have shown impressive output capabilities, prior studies often treat reasoning as a black box. Our work investigates the reasoning traces of state-of-the-art LLMs on code execution tasks, highlighting persistent errors and proposing a taxonomy of reasoning failure types.
 
+
 ## 📂 Repository Structure
 
-.
+```
 ├── Reasoning Collection
-│ ├── HumanEval.ipynb # Run LLM inference and collect reasoning on HumanEval+
-│ └── LiveCodeBench.ipynb # Run LLM inference and collect reasoning on LiveCodeBench
+│   ├── HumanEval.ipynb                  # Run LLM inference and collect reasoning on HumanEval+
+│   └── LiveCodeBench.ipynb              # Run LLM inference and collect reasoning on LiveCodeBench
 │
 ├── ExecBench
-│ ├── ExecBench.json # Combined benchmark dataset
-│ ├── HumanEval_regular_inputs.json # HumanEval+ regular inputs with ground-truth outputs
-│ ├── HumanEval_edge_inputs.json # HumanEval+ edge inputs
-│ ├── HumanEval_invalid_inputs.json # HumanEval+ invalid inputs
-│ ├── Livecodebench_regular_inputs.json # LiveCodeBench regular inputs
-│ ├── Livecodebench_edge_inputs.json # LiveCodeBench edge inputs
-│ └── Livecodebench_invalid_inputs.json # LiveCodeBench invalid inputs
+│   ├── ExecBench.json                   # Combined benchmark dataset
+│   ├── HumanEval_regular_inputs.json    # HumanEval+ regular inputs with ground-truth outputs
+│   ├── HumanEval_edge_inputs.json       # HumanEval+ edge inputs
+│   ├── HumanEval_invalid_inputs.json    # HumanEval+ invalid inputs
+│   ├── Livecodebench_regular_inputs.json# LiveCodeBench regular inputs
+│   ├── Livecodebench_edge_inputs.json   # LiveCodeBench edge inputs
+│   └── Livecodebench_invalid_inputs.json# LiveCodeBench invalid inputs
 │
 └── Annotated Reasoning Errors
-├── HumanEval_Regular_Inputs_ReasoningErrors.csv # Trace- and statement-level error annotations (HumanEval+ regular)
-├── HumanEval_Edge_Inputs_ReasoningErrors.csv # Error annotations (HumanEval+ edge)
-├── LiveCodeBench_Regular_Inputs_ReasoningErrors.csv # Error annotations (LiveCodeBench regular)
-├── LiveCodeBench_Edge_Inputs_ReasoningErrors.csv # Error annotations (LiveCodeBench edge)
-└── LLM_Thinking_Errors_Analysis.xlsx # analysis of all reasoning errors saved in excel format
-
+    ├── HumanEval_Regular_Inputs_ReasoningErrors.csv    # Trace- and statement-level error annotations (HumanEval+ regular)
+    ├── HumanEval_Edge_Inputs_ReasoningErrors.csv       # Error annotations (HumanEval+ edge)
+    ├── LiveCodeBench_Regular_Inputs_ReasoningErrors.csv# Error annotations (LiveCodeBench regular)
+    ├── LiveCodeBench_Edge_Inputs_ReasoningErrors.csv   # Error annotations (LiveCodeBench edge)
+    └── LLM_Thinking_Errors_Analysis.xlsx               # Analysis of all reasoning errors in Excel format
+```
 
 ### Folder Highlights
 * **Reasoning Collection** – Notebooks and prompts to run LLM inference and collect reasoning traces.  
