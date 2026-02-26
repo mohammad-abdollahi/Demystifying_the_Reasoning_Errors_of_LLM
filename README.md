@@ -1,4 +1,4 @@
-# Demystifying the Reasoning Errors of LLMs: An Empirical Study on Code Execution Inference
+# [Demystifying the Reasoning Errors of LLMs: An Empirical Study on Code Execution Inference](https://arxiv.org/abs/2512.00215)
 
 ## 📖 Overview
 
