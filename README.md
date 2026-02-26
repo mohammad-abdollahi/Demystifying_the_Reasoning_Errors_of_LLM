@@ -153,11 +153,14 @@ This taxonomy provides a structured framework to systematically classify reasoni
 
 **Citation:**
 ```bibtex
-@article{my-paper-2024,
-  title={Demystifying the Reasoning Errors of LLMs: An Empirical Study on Code Execution Inference},
-  author={Anonymous},
-  journal={arXiv preprint arXiv:my-id},
-  year={2025}
+@article{abdollahi2025demystifyingerrorsllmreasoning,
+      title={Demystifying Errors in LLM Reasoning Traces: An Empirical Study of Code Execution Simulation}, 
+      author={Mohammad Abdollahi and Khandaker Rifah Tasnia and Soumit Kanti Saha and Jinqiu Yang and Song Wang and Hadi Hemmati},
+      year={2025},
+      eprint={2512.00215},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2512.00215}, 
 }
 ```
 
