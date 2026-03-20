@@ -1,0 +1,7 @@
+langchain
+langgraph
+langchain-openai
+langchain-anthropic
+langchain-fireworks
+python-dotenv
+langchain-google-genai
