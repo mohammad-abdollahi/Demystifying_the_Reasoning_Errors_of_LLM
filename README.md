@@ -112,7 +112,8 @@ We curated a benchmark from two widely used datasets:
 
 We analyzed reasoning errors made by LLMs and developed a **comprehensive error taxonomy**. The taxonomy comprises nine high-level categories, each with specific subcategories.
 
-<img width="1260" height="720" alt="taxonomy" src="https://github.com/user-attachments/files/26163370/taxonomy.pdf" />
+<img width="2667" height="1500" alt="taxonomy" src="https://github.com/user-attachments/assets/39271484-16c3-4916-a0f7-b602cb7ffeea" />
+
 
 1. **Computation Errors**
 
