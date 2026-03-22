@@ -35,6 +35,8 @@ Understanding a program’s runtime reasoning behavior, how intermediate states 
 │   └── LLM_Thinking_Errors_Analysis.xlsx               # Analysis of all reasoning errors in Excel format
 │
 └── ⭐️ Taxonomy Details.pdf ⭐️
+│
+└── Tool Augmented Reasoning Code Execution Agent
 ```
 
 ### Folder Highlights
