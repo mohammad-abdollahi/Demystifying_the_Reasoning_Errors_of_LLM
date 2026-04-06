@@ -84,7 +84,7 @@ We curated a benchmark from two widely used datasets:
 
 **Dataset Statistics:**
 
-* 427 code snippets
+* 477 code snippets
 * Each snippet evaluated with 12 input values
 * Input types: Regular, Edge, Invalid
 * Ground-truth execution outcomes provided
@@ -98,8 +98,8 @@ We curated a benchmark from two widely used datasets:
 
 **Key Findings:**
 
-* Accuracy on regular inputs: 95%
-* Accuracy on edge-case inputs: 89%
+* Accuracy on regular inputs: 88%
+* Accuracy on edge-case inputs: 82%
 * Accuracy on invalid inputs: 91%
 * Performance drops sharply on complex snippets (nested logic, recursion, or implicit state changes)
 
