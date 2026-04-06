@@ -83,6 +83,7 @@ We curated a benchmark from two widely used datasets:
 
 * **HumanEval+**
 * **LiveCodeBench**
+* * **RepoExec**
 
 **Dataset Statistics:**
 
