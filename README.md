@@ -35,6 +35,8 @@ Understanding a program’s runtime reasoning behavior, how intermediate states 
 │   └── LLM_Thinking_Errors_Analysis.xlsx               # Analysis of all reasoning errors in Excel format
 │
 └── ⭐️ Taxonomy Details.pdf ⭐️
+│
+└── Tool Augmented Reasoning Code Execution Agent
 ```
 
 ### Folder Highlights
@@ -112,7 +114,8 @@ We curated a benchmark from two widely used datasets:
 
 We analyzed reasoning errors made by LLMs and developed a **comprehensive error taxonomy**. The taxonomy comprises nine high-level categories, each with specific subcategories.
 
-<img width="1260" height="720" alt="taxonomy" src="https://github.com/user-attachments/assets/7dd90d2b-467f-41e3-bc3e-1ec7517efe76" />
+<img width="2667" height="1500" alt="taxonomy" src="https://github.com/user-attachments/assets/39271484-16c3-4916-a0f7-b602cb7ffeea" />
+
 
 1. **Computation Errors**
 
